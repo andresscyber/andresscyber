@@ -1,3 +1,9 @@
+## Hi there 👋
+
+<!--
+**andresscyber/andresscyber** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+-->
+
 <!-- Banner / quick intro -->
 <h1 align="center">Hi, I'm Andres 👋</h1>
 <p align="center">
@@ -9,7 +15,7 @@
 
 ### 🧭 Focus
 - Breaking into **Cloud Security Engineering**
-- Hands-on in **AWS**, **Linux**, **SIEM (Splunk/Wazuh)**, and **automation**
+- Hands-on in **AWS**, **Linux**, **SIEM (Splunk)**, and **automation**
 
 ### 🛡️ Certifications
 - CompTIA **Security+**, **Network+**, **A+**
@@ -19,16 +25,16 @@
 
 ### 🧰 Tech I use
 `Linux` · `Windows` · `AWS (S3, EC2, IAM, Lambda, CloudWatch)` · `Azure basics`  
-`Bash` · `PowerShell` · `Git/GitHub` · `Splunk` · `Wazuh` · `Wireshark`
+`Bash` · `PowerShell` · `Git/GitHub` · `Splunk` · `Wireshark`
 
 ---
 
 ## 🚀 Featured Projects
 > **Main projects** listed first. Each has a supporting project that reinforces the same skill area.
 
-**1) SOC Lab (Splunk/Wazuh)** — *Detect brute-force, create alerts, document response*  
+**1) Splunk Brute-Force Detection Lab** — *Detect SSH brute-force attempts, analyze failed logins*  
 → Supporting: **Vulnerability Scan Demo (OpenVAS/Nessus)**  
-- Repo: **[`soc-lab-splunk-wazuh`](#)** · **[`vuln-scan-demo`](#)**
+- Repo: **[`splunk-bruteforce-lab`](#)** · **[`vuln-scan-demo`](#)**
 
 **2) AWS Serverless Security Logger (Lambda + CloudWatch)** — *Log/alert on events*  
 → Supporting: **AWS S3 Portfolio Website**  
@@ -45,8 +51,8 @@
 - [x] Windows Troubleshooting Playbook  
 - [ ] AWS S3 Portfolio Website  
 - [ ] AWS Lambda Security Logger  
-- [ ] SOC Lab (Splunk/Wazuh)  
-- [ ] Vulnerability Scan Demo
+- [x] Splunk Brute-Force Detection Lab  
+- [ ] Vulnerability Scan Demo  
 
 ---
 
