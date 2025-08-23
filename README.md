@@ -42,7 +42,7 @@
 
 **3) Linux User Automation Script** — *Automate user lifecycle + audit logs*  
 → Supporting: **Windows IT Troubleshooting Playbook**  
-- Repo: **[`linux-user-management-script`](#)** · **[`windows-it-troubleshooting-playbook`](#)**
+- Repo: **[`linux-user-management-script`](https://github.com/andresscyber/linux-user-management-script)** · **[`windows-it-troubleshooting-playbook`](#)**
 
 ---
 
