@@ -34,7 +34,7 @@
 
 **1) Splunk Brute-Force Detection Lab** — *Detect SSH brute-force attempts, analyze failed logins*  
 → Supporting: **Vulnerability Scan Demo (OpenVAS/Nessus)**  
-- Repo: **[`splunk-bruteforce-lab`](#)** · **[`vuln-scan-demo`](#)**
+- Repo: **[`splunk-bruteforce-lab`]([#](https://github.com/andresscyber/splunk-ssh-bruteforce-lab))** · **[`vuln-scan-demo`](#)**
 
 **2) AWS Serverless Security Logger (Lambda + CloudWatch)** — *Log/alert on events*  
 → Supporting: **AWS S3 Portfolio Website**  
