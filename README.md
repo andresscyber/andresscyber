@@ -38,7 +38,7 @@
 
 **2) AWS Serverless Security Logger (Lambda + CloudWatch)** — *Log/alert on events*  
 → Supporting: **AWS S3 Portfolio Website**  
-- Repo: **[`aws-lambda-security-logger`](#)** · **[`aws-s3-portfolio-site`](#)**
+- Repo: **[`aws-lambda-security-logger`](https://github.com/andresscyber/aws-serverless-security-logger)** · **[`aws-s3-portfolio-site`](#)**
 
 **3) Linux User Automation Script** — *Automate user lifecycle + audit logs*  
 → Supporting: **Windows IT Troubleshooting Playbook**  
@@ -50,7 +50,7 @@
 - [x] Linux User Automation Script  
 - [x] Windows Troubleshooting Playbook  
 - [ ] AWS S3 Portfolio Website  
-- [ ] AWS Lambda Security Logger  
+- [x] AWS Lambda Security Logger  
 - [x] Splunk Brute-Force Detection Lab  
 - [ ] Vulnerability Scan Demo  
 
