@@ -1,9 +1,5 @@
 ## Hi there 👋
 
-<!--
-**andresscyber/andresscyber** is a ✨ _special_ ✨ repository because its `README.md` appears on your GitHub profile.
--->
-
 <h1 align="center">Hi, I'm Andres 👋</h1>
 
 <p align="center">
@@ -29,12 +25,13 @@
 
 ## 🛡️ Certifications
 
-- **CompTIA A+**
-- **CompTIA Network+**
-- **CompTIA Security+**
-- **CompTIA CySA+**
 - **CompTIA PenTest+**
+- **CompTIA CySA+**
+- **CompTIA Security+**
 - **AWS Certified Cloud Practitioner**
+- **ITIL 4 Foundation**
+- **CompTIA Network+**
+- **CompTIA A+**
 
 ---
 
@@ -55,17 +52,16 @@
 *Windows threat hunting lab using Sysmon telemetry and Wazuh SIEM for attack detection, log analysis, and security monitoring.*
 
 ### Key Skills
-- Threat Hunting
-- Detection Engineering
-- Windows Event Analysis
-- SIEM Monitoring
+- Threat Hunting & Detection Engineering
+- Windows Event Log Analysis
+- SIEM Monitoring & Alerting
 - MITRE ATT&CK Mapping
 
 ### Technologies
 `Wazuh` · `Sysmon` · `Windows 10` · `Ubuntu Server` · `Elastic Stack`
 
 ### Repository
-- **[`wazuh-sysmon-detection-lab`](https://github.com/andresscyber/wazuh-sysmon-detection-lab)**
+- **[wazuh-sysmon-detection-lab](https://github.com/andresscyber/wazuh-sysmon-detection-lab)**
 
 ---
 
@@ -79,7 +75,7 @@
 `Splunk` · `Linux` · `SSH` · `Syslog`
 
 ### Repository
-- **[`splunk-ssh-bruteforce-lab`](https://github.com/andresscyber/splunk-ssh-bruteforce-lab)**
+- **[splunk-ssh-bruteforce-lab](https://github.com/andresscyber/splunk-ssh-bruteforce-lab)**
 
 ---
 
@@ -93,7 +89,7 @@
 `AWS Lambda` · `CloudWatch` · `SNS` · `IAM` · `Python`
 
 ### Repository
-- **[`aws-serverless-security-logger`](https://github.com/andresscyber/aws-serverless-security-logger)**
+- **[aws-serverless-security-logger](https://github.com/andresscyber/aws-serverless-security-logger)**
 
 ---
 
@@ -107,7 +103,7 @@
 `Linux` · `Bash` · `User Management`
 
 ### Repository
-- **[`linux-user-management-script`](https://github.com/andresscyber/linux-user-management-script)**
+- **[linux-user-management-script](https://github.com/andresscyber/linux-user-management-script)**
 
 ---
 
