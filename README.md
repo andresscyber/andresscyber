@@ -1,12 +1,10 @@
-## Hi there 👋
-
 <h1 align="center">Hi, I'm Andres 👋</h1>
 
 <p align="center">
-  <strong>Cloud Security • Detection Engineering • Threat Hunting</strong><br/>
+  <strong>Detection Engineering • Cloud Security • Threat Hunting</strong><br/>
   B.S. Information Technology • M.S. Cybersecurity & Information Assurance<br/>
-  Los Angeles, CA • 
-  <a href="mailto:andres.s7195@gmail.com">Email</a> • 
+  Los Angeles, CA •
+  <a href="mailto:andres.s7195@gmail.com">Email</a> •
   <a href="https://www.linkedin.com/in/andres-sanchez-0a7899261/">LinkedIn</a>
 </p>
 
@@ -14,120 +12,146 @@
 
 ## 🧭 Focus
 
-- **Detection Engineering**
-- **Threat Hunting**
-- **SIEM & Log Analysis**
-- **Cloud Security**
-- **Windows Endpoint Monitoring**
-- **Security Monitoring & Incident Detection**
+- Detection Engineering
+- Threat Hunting
+- Security Monitoring & Incident Detection
+- SIEM Engineering
+- Cloud Security
+- Windows Endpoint Telemetry
 
 ---
 
 ## 🛡️ Certifications
 
-- **CompTIA PenTest+**
-- **CompTIA CySA+**
-- **CompTIA Security+**
-- **AWS Certified Cloud Practitioner**
-- **ITIL 4 Foundation**
-- **CompTIA Network+**
-- **CompTIA A+**
+- CompTIA PenTest+
+- CompTIA CySA+
+- CompTIA Security+
+- AWS Certified Cloud Practitioner
+- ITIL 4 Foundation
+- CompTIA Network+
+- CompTIA A+
+- LPI Linux Essentials
 
 ---
 
 ## 🧰 Technologies & Tools
 
-`Linux` · `Windows` · `AWS (S3, EC2, IAM, Lambda, CloudWatch)` · `Sysmon` · `Elastic Stack`  
-`Bash` · `PowerShell` · `Git/GitHub` · `Splunk` · `Wireshark` · `Wazuh` · `MITRE ATT&CK`
+`Wazuh` · `Splunk` · `Sysmon` · `Elastic Stack`
+
+`AWS (S3, IAM, Lambda, CloudWatch, SNS, ECR)`
+
+`Windows` · `Linux` · `PowerShell` · `Bash`
+
+`Wireshark` · `MITRE ATT&CK` · `Git/GitHub`
 
 ---
 
 # 🚀 Featured Projects
 
-> Main projects listed first. Supporting projects reinforce the same technical skill area.
-
 ---
 
-## 1) **Wazuh + Sysmon Detection Lab**
-*Windows threat hunting lab using Sysmon telemetry and Wazuh SIEM for attack detection, log analysis, and security monitoring.*
+## 1) [Wazuh Detection Engineering Lab](https://github.com/andresscyber/wazuh-detection-engineering-lab)
+
+Engineered a detection lab using Wazuh and Sysmon to create custom detections for PowerShell execution, user account creation, and privileged group membership changes mapped to MITRE ATT&CK techniques.
 
 ### Key Skills
-- Threat Hunting & Detection Engineering
-- Windows Event Log Analysis
-- SIEM Monitoring & Alerting
+
+- Detection Engineering
+- Threat Hunting
+- Custom SIEM Rule Development
+- Windows Security Monitoring
 - MITRE ATT&CK Mapping
 
 ### Technologies
-`Wazuh` · `Sysmon` · `Windows 10` · `Ubuntu Server` · `Elastic Stack`
 
-### Repository
-- **[wazuh-sysmon-detection-lab](https://github.com/andresscyber/wazuh-sysmon-detection-lab)**
+`Wazuh` · `Sysmon` · `Windows 10` · `Ubuntu Server`
 
 ---
 
-## 2) **Splunk Brute-Force Detection Lab**
-*SIEM detection lab leveraging Splunk to identify and investigate SSH brute-force activity through centralized log analysis.*
+## 2) AWS Serverless Malware Scanning Pipeline 🚧
 
-### Supporting Project
-→ **Vulnerability Scan Demo (OpenVAS/Nessus)**
+Architecting a serverless, event-driven malware scanning pipeline that automatically scans files uploaded to Amazon S3 using ClamAV running in containerized AWS Lambda functions.
+
+### Key Skills
+
+- Cloud Security
+- Security Automation
+- Malware Detection
+- Serverless Architecture
+- AWS Security Monitoring
 
 ### Technologies
+
+`AWS Lambda` · `S3` · `ECR` · `SNS` · `CloudWatch` · `Docker` · `Python`
+
+### Status
+
+Currently Building
+
+---
+
+## 3) [Splunk Brute-Force Detection Lab](https://github.com/andresscyber/splunk-ssh-bruteforce-lab)
+
+Built a SIEM detection lab focused on identifying and investigating brute-force activity through centralized log collection, dashboards, and security monitoring workflows.
+
+### Key Skills
+
+- SIEM Monitoring
+- Log Analysis
+- Incident Investigation
+- Authentication Monitoring
+
+### Technologies
+
 `Splunk` · `Linux` · `SSH` · `Syslog`
 
-### Repository
-- **[splunk-ssh-bruteforce-lab](https://github.com/andresscyber/splunk-ssh-bruteforce-lab)**
-
 ---
 
-## 3) **AWS Serverless Security Logger**
-*Serverless cloud security monitoring project using AWS Lambda, CloudWatch, and SNS for automated event logging and alerting.*
+## 4) [AWS Serverless Security Logger](https://github.com/andresscyber/aws-serverless-security-logger)
 
-### Supporting Project
-→ **AWS S3 Portfolio Website**
+Built a serverless security monitoring solution leveraging AWS Lambda, CloudWatch, and SNS to automate event collection and alerting.
+
+### Key Skills
+
+- Cloud Monitoring
+- Event Logging
+- Security Alerting
+- AWS Services
 
 ### Technologies
-`AWS Lambda` · `CloudWatch` · `SNS` · `IAM` · `Python`
 
-### Repository
-- **[aws-serverless-security-logger](https://github.com/andresscyber/aws-serverless-security-logger)**
+`AWS Lambda` · `CloudWatch` · `SNS` · `IAM`
 
 ---
 
-## 4) **Linux User Management Automation Script**
-*Bash automation project for Linux account lifecycle management with logging and administrative controls.*
-
-### Supporting Project
-→ **Windows IT Troubleshooting Playbook**
-
-### Technologies
-`Linux` · `Bash` · `User Management`
-
-### Repository
-- **[linux-user-management-script](https://github.com/andresscyber/linux-user-management-script)**
-
----
-
-# 🗺️ Build Roadmap
+# 🗺️ Project Roadmap
 
 - [x] Linux User Management Script
-- [x] Windows IT Troubleshooting Playbook
 - [x] AWS Serverless Security Logger
-- [x] Splunk Brute-Force Detection Lab
-- [x] Wazuh + Sysmon Detection Lab
-- [ ] Vulnerability Scan Demo
-- [ ] AWS S3 Portfolio Website
-- [ ] Detection Engineering Rule Pack
-- [ ] Threat Hunting Playbooks
+- [x] Splunk Brute Force Detection Lab
+- [x] Wazuh Detection Engineering Lab
+- [ ] AWS Serverless Malware Scanning Pipeline 🚧
+- [ ] Active Directory Attack & Defend Lab 🚧
+- [ ] Detection-as-Code Pipeline
+- [ ] AWS Cloud Misconfiguration Detection Lab
+- [ ] SOAR Automation Playbook
 
 ---
 
-# 🛠️ Currently Building
+## 🎯 Career Focus
 
-- **AWS Cloud Security Monitoring Lab**
-- **Detection Engineering Rules**
-- **Threat Hunting Playbooks**
-- **Python Security Automation**
-- **Cloud SIEM Integrations**
+### Current Target Roles
+
+- SOC Analyst
+- Security Analyst
+- Cybersecurity Analyst
+- Security Operations Analyst
+- Detection Analyst
+- Junior Detection Engineer
+
+### Long-Term Goal
+
+- Cloud Security Engineer
 
 ---
 
