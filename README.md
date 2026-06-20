@@ -68,21 +68,21 @@ Engineered a detection lab using Wazuh and Sysmon to create custom detections fo
 
 ---
 
-## 2) AWS Serverless Malware Scanning Pipeline 🚧
+## 2) [AWS Serverless Malware Scanning Pipeline](https://github.com/andresscyber/aws-serverless-malware-scanning-pipeline)
 
-Architecting a serverless, event-driven malware scanning pipeline that automatically scans files uploaded to Amazon S3 using ClamAV running in containerized AWS Lambda functions.
+Built a serverless malware scanning solution that automatically scans files uploaded to Amazon S3 using ClamAV running inside containerized AWS Lambda functions. The solution identifies malicious files, applies security tags, and generates automated notifications through SNS.
 
 ### Key Skills
 
 - Cloud Security
 - Security Automation
 - Malware Detection
-- Serverless Architecture
+- Serverless Security
 - AWS Security Monitoring
 
 ### Technologies
 
-`AWS Lambda` · `S3` · `ECR` · `SNS` · `CloudWatch` · `Docker` · `Python`
+`AWS Lambda` · `S3` · `ECR` · `SNS` · `CloudWatch` · `Docker` · `Python` · `ClamAV`
 
 ### Status
 
@@ -129,9 +129,9 @@ Built a serverless security monitoring solution leveraging AWS Lambda, CloudWatc
 - [x] Linux User Management Script
 - [x] AWS Serverless Security Logger
 - [x] Splunk Brute Force Detection Lab
+- [x] AWS Serverless Malware Scanning Pipeline
 - [x] Wazuh Detection Engineering Lab
-- [ ] AWS Serverless Malware Scanning Pipeline 🚧
-- [ ] Active Directory Attack & Defend Lab 🚧
+- [ ] Active Directory Attack & Defend Lab
 - [ ] Detection-as-Code Pipeline
 - [ ] AWS Cloud Misconfiguration Detection Lab
 - [ ] SOAR Automation Playbook
