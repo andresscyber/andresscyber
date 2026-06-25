@@ -10,6 +10,10 @@
 
 ---
 
+Cybersecurity professional with hands-on experience designing and implementing enterprise-style detection engineering, SIEM, Active Directory, and AWS cloud security projects focused on threat detection, automation, and incident response.
+
+---
+
 ## 🧭 Focus
 
 - Detection Engineering
@@ -38,7 +42,9 @@
 
 `Wazuh` · `Splunk` · `Sysmon` · `Elastic Stack`
 
-`AWS (S3, IAM, Lambda, CloudWatch, SNS, ECR)`
+`AWS (IAM, S3, Lambda, CloudWatch, SNS, EventBridge, CloudTrail, ECR)`
+
+`Terraform` · `GitHub Actions` · `Checkov` · `Python`
 
 `Windows` · `Linux` · `PowerShell` · `Bash`
 
@@ -52,7 +58,7 @@
 
 ## 1) [Wazuh Detection Engineering Lab](https://github.com/andresscyber/wazuh-detection-engineering-lab)
 
-Engineered a detection lab using Wazuh and Sysmon to create custom detections for PowerShell execution, user account creation, and privileged group membership changes mapped to MITRE ATT&CK techniques.
+Designed and implemented a detection engineering lab using Wazuh and Sysmon to create custom detections for PowerShell execution, user account creation, and privileged group membership changes mapped to MITRE ATT&CK techniques.
 
 ### Key Skills
 
@@ -68,7 +74,43 @@ Engineered a detection lab using Wazuh and Sysmon to create custom detections fo
 
 ---
 
-## 2) [AWS Serverless Malware Scanning Pipeline](https://github.com/andresscyber/aws-serverless-malware-scanning-pipeline)
+## 2) [Active Directory Attack & Defend Lab](https://github.com/andresscyber/active-directory-attack-defend-lab)
+
+Designed and implemented an enterprise Active Directory environment with a Windows Server domain controller, Windows 11 endpoint, Sysmon, and Wazuh to simulate identity attacks, privilege escalation, and security monitoring workflows.
+
+### Key Skills
+
+- Active Directory
+- Identity Security
+- Windows Security
+- Threat Detection
+- SIEM Monitoring
+
+### Technologies
+
+`Windows Server 2022` · `Windows 11` · `Active Directory` · `Sysmon` · `Wazuh`
+
+---
+
+## 3) [Detection-as-Code Pipeline](https://github.com/andresscyber/detection-as-code-pipeline)
+
+Built a Detection-as-Code pipeline using Sigma rules and GitHub Actions to automatically validate detection content before deployment, demonstrating modern security engineering workflows and CI/CD integration.
+
+### Key Skills
+
+- Detection Engineering
+- Detection-as-Code
+- CI/CD
+- Security Automation
+- Sigma Rule Validation
+
+### Technologies
+
+`GitHub Actions` · `Sigma` · `Python` · `YAML`
+
+---
+
+## 4) [AWS Serverless Malware Scanning Pipeline](https://github.com/andresscyber/aws-serverless-malware-scanning-pipeline)
 
 Built a serverless malware scanning solution that automatically scans files uploaded to Amazon S3 using ClamAV running inside containerized AWS Lambda functions. The solution identifies malicious files, applies security tags, and generates automated notifications through SNS.
 
@@ -84,15 +126,11 @@ Built a serverless malware scanning solution that automatically scans files uplo
 
 `AWS Lambda` · `S3` · `ECR` · `SNS` · `CloudWatch` · `Docker` · `Python` · `ClamAV`
 
-### Status
-
-Currently Building
-
 ---
 
-## 3) [Splunk Brute-Force Detection Lab](https://github.com/andresscyber/splunk-ssh-bruteforce-lab)
+## 5) [Splunk SSH Brute-Force Detection Lab](https://github.com/andresscyber/splunk-ssh-bruteforce-lab)
 
-Built a SIEM detection lab focused on identifying and investigating brute-force activity through centralized log collection, dashboards, and security monitoring workflows.
+Designed and implemented a SIEM detection lab focused on identifying and investigating SSH brute-force activity through centralized log collection, dashboards, and security monitoring workflows.
 
 ### Key Skills
 
@@ -107,7 +145,7 @@ Built a SIEM detection lab focused on identifying and investigating brute-force 
 
 ---
 
-## 4) [AWS Serverless Security Logger](https://github.com/andresscyber/aws-serverless-security-logger)
+## 6) [AWS Serverless Security Logger](https://github.com/andresscyber/aws-serverless-security-logger)
 
 Built a serverless security monitoring solution leveraging AWS Lambda, CloudWatch, and SNS to automate event collection and alerting.
 
@@ -128,13 +166,12 @@ Built a serverless security monitoring solution leveraging AWS Lambda, CloudWatc
 
 - [x] Linux User Management Script
 - [x] AWS Serverless Security Logger
-- [x] Splunk Brute Force Detection Lab
+- [x] Splunk SSH Brute Force Detection Lab
 - [x] AWS Serverless Malware Scanning Pipeline
 - [x] Wazuh Detection Engineering Lab
-- [ ] Active Directory Attack & Defend Lab
-- [ ] Detection-as-Code Pipeline
-- [ ] AWS Cloud Misconfiguration Detection Lab
-- [ ] SOAR Automation Playbook
+- [x] Active Directory Attack & Defend Lab
+- [x] Detection-as-Code Pipeline
+- [ ] AWS DevSecOps & Automated Cloud Remediation Pipeline
 
 ---
 
@@ -146,8 +183,8 @@ Built a serverless security monitoring solution leveraging AWS Lambda, CloudWatc
 - Security Analyst
 - Cybersecurity Analyst
 - Security Operations Analyst
-- Detection Analyst
-- Junior Detection Engineer
+- Detection Engineer
+- Security Engineer
 
 ### Long-Term Goal
 
