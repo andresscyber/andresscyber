@@ -10,7 +10,7 @@
 
 ---
 
-Cybersecurity professional with hands-on experience designing and implementing enterprise-style detection engineering, SIEM, Active Directory, and AWS cloud security projects focused on threat detection, automation, and incident response.
+Cybersecurity professional with hands-on experience designing and implementing enterprise-style Detection Engineering, DevSecOps, SIEM, Active Directory, and AWS Cloud Security projects focused on threat detection, security automation, continuous compliance, and incident response.
 
 ---
 
@@ -21,6 +21,8 @@ Cybersecurity professional with hands-on experience designing and implementing e
 - Security Monitoring & Incident Detection
 - SIEM Engineering
 - Cloud Security
+- DevSecOps
+- Infrastructure as Code
 - Windows Endpoint Telemetry
 
 ---
@@ -42,9 +44,9 @@ Cybersecurity professional with hands-on experience designing and implementing e
 
 `Wazuh` · `Splunk` · `Sysmon` · `Elastic Stack`
 
-`AWS (IAM, S3, Lambda, CloudWatch, SNS, EventBridge, CloudTrail, ECR)`
+`AWS (IAM, S3, Lambda, CloudWatch, SNS, EventBridge, CloudTrail, AWS Config, ECR)`
 
-`Terraform` · `GitHub Actions` · `Checkov` · `Python`
+`Terraform` · `GitHub Actions` · `Checkov` · `TFLint` · `Python`
 
 `Windows` · `Linux` · `PowerShell` · `Bash`
 
@@ -74,7 +76,27 @@ Designed and implemented a detection engineering lab using Wazuh and Sysmon to c
 
 ---
 
-## 2) [Active Directory Attack & Defend Lab](https://github.com/andresscyber/active-directory-attack-defend-lab)
+## 2) [AWS DevSecOps & Automated Cloud Remediation Pipeline](https://github.com/andresscyber/aws-devsecops-remediation-pipeline)
+
+Designed and implemented an event-driven AWS DevSecOps pipeline that provisions secure cloud infrastructure using Terraform, validates Infrastructure as Code through GitHub Actions, Checkov, and TFLint, continuously monitors Amazon S3 compliance using AWS Config, and automatically remediates insecure cloud configurations with AWS Lambda and Amazon EventBridge.
+
+### Key Skills
+
+- Cloud Security Engineering
+- DevSecOps
+- Infrastructure as Code
+- Continuous Compliance
+- Security Automation
+- Event-Driven Architecture
+- Least Privilege IAM
+
+### Technologies
+
+`Terraform` · `GitHub Actions` · `Checkov` · `TFLint` · `AWS Config` · `Amazon EventBridge` · `AWS Lambda` · `Amazon S3` · `CloudWatch` · `IAM` · `Python`
+
+---
+
+## 3) [Active Directory Attack & Defend Lab](https://github.com/andresscyber/active-directory-attack-defend-lab)
 
 Designed and implemented an enterprise Active Directory environment with a Windows Server domain controller, Windows 11 endpoint, Sysmon, and Wazuh to simulate identity attacks, privilege escalation, and security monitoring workflows.
 
@@ -92,7 +114,7 @@ Designed and implemented an enterprise Active Directory environment with a Windo
 
 ---
 
-## 3) [Detection-as-Code Pipeline](https://github.com/andresscyber/detection-as-code-pipeline)
+## 4) [Detection-as-Code Pipeline](https://github.com/andresscyber/detection-as-code-pipeline)
 
 Built a Detection-as-Code pipeline using Sigma rules and GitHub Actions to automatically validate detection content before deployment, demonstrating modern security engineering workflows and CI/CD integration.
 
@@ -110,9 +132,9 @@ Built a Detection-as-Code pipeline using Sigma rules and GitHub Actions to autom
 
 ---
 
-## 4) [AWS Serverless Malware Scanning Pipeline](https://github.com/andresscyber/aws-serverless-malware-scanning-pipeline)
+## 5) [AWS Serverless Malware Scanning Pipeline](https://github.com/andresscyber/aws-serverless-malware-scanning-pipeline)
 
-Built a serverless malware scanning solution that automatically scans files uploaded to Amazon S3 using ClamAV running inside containerized AWS Lambda functions. The solution identifies malicious files, applies security tags, and generates automated notifications through SNS.
+Built a serverless malware scanning solution that automatically scans files uploaded to Amazon S3 using ClamAV running inside containerized AWS Lambda functions. The solution identifies malicious files, applies security tags, and generates automated notifications through Amazon SNS.
 
 ### Key Skills
 
@@ -124,11 +146,11 @@ Built a serverless malware scanning solution that automatically scans files uplo
 
 ### Technologies
 
-`AWS Lambda` · `S3` · `ECR` · `SNS` · `CloudWatch` · `Docker` · `Python` · `ClamAV`
+`AWS Lambda` · `Amazon S3` · `Amazon ECR` · `Amazon SNS` · `CloudWatch` · `Docker` · `Python` · `ClamAV`
 
 ---
 
-## 5) [Splunk SSH Brute-Force Detection Lab](https://github.com/andresscyber/splunk-ssh-bruteforce-lab)
+## 6) [Splunk SSH Brute-Force Detection Lab](https://github.com/andresscyber/splunk-ssh-bruteforce-lab)
 
 Designed and implemented a SIEM detection lab focused on identifying and investigating SSH brute-force activity through centralized log collection, dashboards, and security monitoring workflows.
 
@@ -145,9 +167,9 @@ Designed and implemented a SIEM detection lab focused on identifying and investi
 
 ---
 
-## 6) [AWS Serverless Security Logger](https://github.com/andresscyber/aws-serverless-security-logger)
+## 7) [AWS Serverless Security Logger](https://github.com/andresscyber/aws-serverless-security-logger)
 
-Built a serverless security monitoring solution leveraging AWS Lambda, CloudWatch, and SNS to automate event collection and alerting.
+Built a serverless security monitoring solution leveraging AWS Lambda, CloudWatch, and Amazon SNS to automate event collection and alerting.
 
 ### Key Skills
 
@@ -158,7 +180,7 @@ Built a serverless security monitoring solution leveraging AWS Lambda, CloudWatc
 
 ### Technologies
 
-`AWS Lambda` · `CloudWatch` · `SNS` · `IAM`
+`AWS Lambda` · `CloudWatch` · `Amazon SNS` · `IAM`
 
 ---
 
@@ -171,7 +193,7 @@ Built a serverless security monitoring solution leveraging AWS Lambda, CloudWatc
 - [x] Wazuh Detection Engineering Lab
 - [x] Active Directory Attack & Defend Lab
 - [x] Detection-as-Code Pipeline
-- [ ] AWS DevSecOps & Automated Cloud Remediation Pipeline
+- [x] AWS DevSecOps & Automated Cloud Remediation Pipeline
 
 ---
 
@@ -185,10 +207,12 @@ Built a serverless security monitoring solution leveraging AWS Lambda, CloudWatc
 - Security Operations Analyst
 - Detection Engineer
 - Security Engineer
+- Cloud Security Engineer
+- DevSecOps Engineer
 
 ### Long-Term Goal
 
-- Cloud Security Engineer
+- Senior Cloud Security Engineer
 
 ---
 
